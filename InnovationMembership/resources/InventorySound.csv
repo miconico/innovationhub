@@ -1,0 +1,16 @@
+ItemId,ItemType,ItemName,ItemDesc,ItemReceived,ItemQuantity,ItemLocation,ItemInStock,ItemTakenDate,ItemTakenByMemberId,ItemPurchaseCost,ItemSaleValue,Consumable,Active
+,SOUNDENG, Presonus Studio One V3 Artist , Presonus Studio One V3 Artist ,2018-02-10 00:00,3,Training Zone,TRUE,2018-02-10 00:00,0,297,297,FALSE,TRUE
+,SOUNDENG, Steinberg UR22 MK2 , Steinberg UR22 MK2 ,2018-02-10 00:01,2,Training Zone,TRUE,2018-02-10 00:01,0,238,238,FALSE,TRUE
+,SOUNDENG, M-Audio AV32 , M-Audio AV32 ,2018-02-10 00:02,3,Training Zone,TRUE,2018-02-10 00:02,0,267,267,FALSE,TRUE
+,SOUNDENG, AKG K-52 , AKG K-52 ,2018-02-10 00:03,3,Training Zone,TRUE,2018-02-10 00:03,0,96,96,FALSE,TRUE
+,SOUNDENG, Steinberg UR44 , Steinberg UR44 ,2018-02-10 00:04,1,Training Zone,TRUE,2018-02-10 00:04,0,269,269,FALSE,TRUE
+,SOUNDENG, M-Audio O, M-Audio O,2018-02-10 00:05,2,Training Zone,TRUE,2018-02-10 00:05,0,170,170,FALSE,TRUE
+,SOUNDENG, M-Audio O, M-Audio O,2018-02-10 00:06,1,Training Zone,TRUE,2018-02-10 00:06,0,149,149,FALSE,TRUE
+,SOUNDENG,"	Millenium MS-2003 (133136) + Rode NT1-A Complete Vocal Recording ","	Millenium MS-2003 (133136) + Rode NT1-A Complete Vocal Recording ",2018-02-10 00:07,1,Training Zone,TRUE,2018-02-10 00:07,0,166,166,FALSE,TRUE
+,SOUNDENG, the t.bone Micscreen LE , the t.bone Micscreen LE ,2018-02-10 00:08,1,Training Zone,TRUE,2018-02-10 00:08,0,59,59,FALSE,TRUE
+,SOUNDENG, Rode Stereo Bar SB20 , Rode Stereo Bar SB20 ,2018-02-10 00:09,1,Training Zone,TRUE,2018-02-10 00:09,0,33,33,FALSE,TRUE
+,SOUNDENG, the sssnake 1820 Adapter , the sssnake 1820 Adapter ,2018-02-10 00:10,4,Training Zone,TRUE,2018-02-10 00:10,0,3,3,FALSE,TRUE
+,SOUNDENG," Shure SM57LC Bundle II -	Shure SM57 LC (105768) + the sssnake SM10 BK (128513) + Millenium MS-2003 (133136) "," Shure SM57LC Bundle II -	Shure SM57 LC (105768) + the sssnake SM10 BK (128513) + Millenium MS-2003 (133136) ",2018-02-10 00:11,1,Training Zone,TRUE,2018-02-10 00:11,0,115,115,FALSE,TRUE
+,SOUNDENG, Rode M5 MP , Rode M5 MP ,2018-02-10 00:12,1,Training Zone,TRUE,2018-02-10 00:12,0,159,159,FALSE,TRUE
+,SOUNDENG, Millenium MS-2002 Mic Stand , Millenium MS-2002 Mic Stand ,2018-02-10 00:13,1,Training Zone,TRUE,2018-02-10 00:13,0,14.9,14.9,FALSE,TRUE
+,SOUNDENG, the sssnake SM10 BK , the sssnake SM10 BK ,2018-02-10 00:14,2,Training Zone,TRUE,2018-02-10 00:14,0,13.2,13.2,FALSE,TRUE

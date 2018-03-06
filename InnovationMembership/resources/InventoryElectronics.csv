@@ -1,0 +1,22 @@
+ItemId,ItemType,ItemName,ItemDesc,ItemReceived,ItemQuantity,ItemLocation,ItemInStock,ItemTakenDate,ItemTakenByMemberId,ItemPurchaseCost,ItemSaleValue,Consumable,Active
+,ELECTRONIC, Adafruit Ultimate GPS HAT for Raspberry Pi A+/B+/Pi 2 - Mini Kit for , Adafruit Ultimate GPS HAT for Raspberry Pi A+/B+/Pi 2 - Mini Kit for ,2/12/2018 0:00,1,Maker Zone,TRUE,2/12/2018 0:00,0,26,26,TRUE,TRUE
+,ELECTRONIC, Black HDMI cable - 1.5m for , Black HDMI cable - 1.5m for ,2/12/2018 0:01,10,Maker Zone,TRUE,2/12/2018 0:01,0,4,4,TRUE,TRUE
+,ELECTRONIC, Raspberry Pi Zero Adaptor Kit for , Raspberry Pi Zero Adaptor Kit for ,2/12/2018 0:02,10,Maker Zone,TRUE,2/12/2018 0:02,0,3.33,3.33,TRUE,TRUE
+,ELECTRONIC, Stainless Medium Conductive Thread - 3 ply - 18 meter/60 ft for , Stainless Medium Conductive Thread - 3 ply - 18 meter/60 ft for ,2/12/2018 0:03,1,Maker Zone,TRUE,2/12/2018 0:03,0,4.3,4.3,TRUE,TRUE
+,ELECTRONIC, Pirate Radio - Pi Zero W Project Kit for , Pirate Radio - Pi Zero W Project Kit for ,2/12/2018 0:04,5,Maker Zone,TRUE,2/12/2018 0:04,0,24.85,24.85,TRUE,TRUE
+,ELECTRONIC, STS-Pi - Build a Roving Robot! for , STS-Pi - Build a Roving Robot! for ,2/12/2018 0:05,5,Maker Zone,TRUE,2/12/2018 0:05,0,11,11,TRUE,TRUE
+,ELECTRONIC, Energenie Pi-mote Control starter kit with 2 sockets for , Energenie Pi-mote Control starter kit with 2 sockets for ,2/12/2018 0:06,4,Maker Zone,TRUE,2/12/2018 0:06,0,15,15,TRUE,TRUE
+,ELECTRONIC, Pi Zero W Starter Kit for , Pi Zero W Starter Kit for ,2/12/2018 0:07,5,Maker Zone,TRUE,2/12/2018 0:07,0,23.65,23.65,TRUE,TRUE
+,ELECTRONIC, MAKEDO Cardboard Construction Toolkit (Classroom Pack) for , MAKEDO Cardboard Construction Toolkit (Classroom Pack) for ,2/12/2018 0:08,1,Maker Zone,TRUE,2/12/2018 0:08,0,75,75,TRUE,TRUE
+,ELECTRONIC, MyoWare Muscle Sensor Development Kit for , MyoWare Muscle Sensor Development Kit for ,2/12/2018 0:09,2,Maker Zone,TRUE,2/12/2018 0:09,0,60,60,TRUE,TRUE
+,ELECTRONIC, Circuit Stickers Classroom Pack for , Circuit Stickers Classroom Pack for ,2/12/2018 0:10,1,Maker Zone,TRUE,2/12/2018 0:10,0,60,60,TRUE,TRUE
+,ELECTRONIC, Adafruit Joy Bonnet for Raspberry Pi for , Adafruit Joy Bonnet for Raspberry Pi for ,2/12/2018 0:11,5,Maker Zone,TRUE,2/12/2018 0:11,0,9.5,9.5,TRUE,TRUE
+,ELECTRONIC, Espruino WiFi for , Espruino WiFi for ,2/12/2018 0:12,2,Maker Zone,TRUE,2/12/2018 0:12,0,25,25,TRUE,TRUE
+,ELECTRONIC, Adafruit Capacitive Touch HAT for Raspberry Pi - Mini Kit - MPR121 for , Adafruit Capacitive Touch HAT for Raspberry Pi - Mini Kit - MPR121 for ,2/12/2018 0:13,8,Maker Zone,TRUE,2/12/2018 0:13,0,8.9,8.9,TRUE,TRUE
+,ELECTRONIC, Adafruit DC & Stepper Motor HAT for Raspberry Pi - Mini Kit for , Adafruit DC & Stepper Motor HAT for Raspberry Pi - Mini Kit for ,2/12/2018 0:14,2,Maker Zone,TRUE,2/12/2018 0:14,0,13.2,13.2,TRUE,TRUE
+,ELECTRONIC, SparkFun Inventor's Kit - v4.0 for , SparkFun Inventor's Kit - v4.0 for ,2/12/2018 0:15,5,Maker Zone,TRUE,2/12/2018 0:15,0,60,60,TRUE,TRUE
+,ELECTRONIC,Explorer pHAT - Inidividual,Explorer pHAT - Inidividual,2/12/2018 0:16,5,Maker Zone,TRUE,2/12/2018 0:16,0,5,5,TRUE,TRUE
+,ELECTRONIC, Camera Module for Raspberry Pi Zero - Standard for , Camera Module for Raspberry Pi Zero - Standard for ,2/12/2018 0:17,5,Maker Zone,TRUE,2/12/2018 0:17,0,10.5,10.5,TRUE,TRUE
+,ELECTRONIC, Raspberry Pi Camera Module v2.1 with mount - Standard for , Raspberry Pi Camera Module v2.1 with mount - Standard for ,2/12/2018 0:18,3,Maker Zone,TRUE,2/12/2018 0:18,0,21.5,21.5,TRUE,TRUE
+,ELECTRONIC, Maker Essentials - Switches & Potentiometers for , Maker Essentials - Switches & Potentiometers for ,2/12/2018 0:19,5,Maker Zone,TRUE,2/12/2018 0:19,0,3.65,3.65,TRUE,TRUE
+,ELECTRONIC, Maker Essentials - LEDs & Resistors for , Maker Essentials - LEDs & Resistors for ,2/12/2018 0:20,10,Maker Zone,TRUE,2/12/2018 0:20,0,2.75,2.75,TRUE,TRUE
