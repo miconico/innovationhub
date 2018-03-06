@@ -419,7 +419,7 @@
             this.dgInventory.Size = new System.Drawing.Size(724, 422);
             this.dgInventory.TabIndex = 25;
             // 
-            // AddInventory
+            // InventoryAdd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -429,7 +429,7 @@
             this.Controls.Add(this.groupBox1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "AddInventory";
+            this.Name = "InventoryAdd";
             this.Text = "Add Inventory";
             this.Load += new System.EventHandler(this.AddInventory_Load);
             this.groupBox1.ResumeLayout(false);

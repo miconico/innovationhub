@@ -30,6 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Member));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.back = new System.Windows.Forms.Button();
+            this.create = new System.Windows.Forms.Button();
             this.memberId = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.type = new System.Windows.Forms.ComboBox();
@@ -52,9 +55,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.forename = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.back = new System.Windows.Forms.Button();
-            this.create = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -91,6 +91,34 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "New Member Details";
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.back);
+            this.groupBox2.Controls.Add(this.create);
+            this.groupBox2.Location = new System.Drawing.Point(244, 215);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(202, 56);
+            this.groupBox2.TabIndex = 24;
+            this.groupBox2.TabStop = false;
+            // 
+            // back
+            // 
+            this.back.Location = new System.Drawing.Point(148, 13);
+            this.back.Name = "back";
+            this.back.Size = new System.Drawing.Size(45, 35);
+            this.back.TabIndex = 23;
+            this.back.Text = "Back";
+            this.back.UseVisualStyleBackColor = true;
+            // 
+            // create
+            // 
+            this.create.Location = new System.Drawing.Point(9, 13);
+            this.create.Name = "create";
+            this.create.Size = new System.Drawing.Size(133, 35);
+            this.create.TabIndex = 22;
+            this.create.Text = "Create Member";
+            this.create.UseVisualStyleBackColor = true;
+            // 
             // memberId
             // 
             this.memberId.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -100,6 +128,7 @@
             this.memberId.ReadOnly = true;
             this.memberId.Size = new System.Drawing.Size(100, 22);
             this.memberId.TabIndex = 23;
+            this.memberId.TextChanged += new System.EventHandler(this.memberId_TextChanged);
             // 
             // label11
             // 
@@ -109,6 +138,7 @@
             this.label11.Size = new System.Drawing.Size(54, 13);
             this.label11.TabIndex = 22;
             this.label11.Text = "MemberId";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // type
             // 
@@ -289,34 +319,6 @@
             this.label1.Size = new System.Drawing.Size(57, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Forename:";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.back);
-            this.groupBox2.Controls.Add(this.create);
-            this.groupBox2.Location = new System.Drawing.Point(244, 215);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(202, 56);
-            this.groupBox2.TabIndex = 24;
-            this.groupBox2.TabStop = false;
-            // 
-            // back
-            // 
-            this.back.Location = new System.Drawing.Point(148, 13);
-            this.back.Name = "back";
-            this.back.Size = new System.Drawing.Size(45, 35);
-            this.back.TabIndex = 23;
-            this.back.Text = "Back";
-            this.back.UseVisualStyleBackColor = true;
-            // 
-            // create
-            // 
-            this.create.Location = new System.Drawing.Point(9, 13);
-            this.create.Name = "create";
-            this.create.Size = new System.Drawing.Size(133, 35);
-            this.create.TabIndex = 22;
-            this.create.Text = "Create Member";
-            this.create.UseVisualStyleBackColor = true;
             // 
             // Member
             // 
