@@ -46,7 +46,9 @@
             this.commercialSaleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.trainingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bulkAddInventoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.searchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkOutInventoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.paymentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.requestPaymentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.paymentTypesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -55,8 +57,6 @@
             this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.bulkAddInventoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.checkOutInventoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.TopToolStripPanel.SuspendLayout();
@@ -196,12 +196,25 @@
             this.trainingToolStripMenuItem.Text = "Add Inventory";
             this.trainingToolStripMenuItem.Click += new System.EventHandler(this.trainingToolStripMenuItem_Click);
             // 
+            // bulkAddInventoryToolStripMenuItem
+            // 
+            this.bulkAddInventoryToolStripMenuItem.Name = "bulkAddInventoryToolStripMenuItem";
+            this.bulkAddInventoryToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.bulkAddInventoryToolStripMenuItem.Text = "Bulk Add Inventory";
+            this.bulkAddInventoryToolStripMenuItem.Click += new System.EventHandler(this.bulkAddInventoryToolStripMenuItem_Click);
+            // 
             // searchToolStripMenuItem
             // 
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
             this.searchToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
             this.searchToolStripMenuItem.Text = "Search Inventory";
             this.searchToolStripMenuItem.Click += new System.EventHandler(this.searchToolStripMenuItem_Click);
+            // 
+            // checkOutInventoryToolStripMenuItem
+            // 
+            this.checkOutInventoryToolStripMenuItem.Name = "checkOutInventoryToolStripMenuItem";
+            this.checkOutInventoryToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.checkOutInventoryToolStripMenuItem.Text = "Check Out Inventory";
             // 
             // paymentsToolStripMenuItem
             // 
@@ -218,6 +231,7 @@
             this.requestPaymentToolStripMenuItem.Name = "requestPaymentToolStripMenuItem";
             this.requestPaymentToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.requestPaymentToolStripMenuItem.Text = "Request Payment";
+            this.requestPaymentToolStripMenuItem.Click += new System.EventHandler(this.requestPaymentToolStripMenuItem_Click);
             // 
             // paymentTypesToolStripMenuItem
             // 
@@ -277,19 +291,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(295, 385);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // bulkAddInventoryToolStripMenuItem
-            // 
-            this.bulkAddInventoryToolStripMenuItem.Name = "bulkAddInventoryToolStripMenuItem";
-            this.bulkAddInventoryToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
-            this.bulkAddInventoryToolStripMenuItem.Text = "Bulk Add Inventory";
-            this.bulkAddInventoryToolStripMenuItem.Click += new System.EventHandler(this.bulkAddInventoryToolStripMenuItem_Click);
-            // 
-            // checkOutInventoryToolStripMenuItem
-            // 
-            this.checkOutInventoryToolStripMenuItem.Name = "checkOutInventoryToolStripMenuItem";
-            this.checkOutInventoryToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
-            this.checkOutInventoryToolStripMenuItem.Text = "Check Out Inventory";
             // 
             // Main
             // 

@@ -32,35 +32,35 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.quantity = new System.Windows.Forms.MaskedTextBox();
             this.name = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.search = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.cboLocationSearch = new System.Windows.Forms.ComboBox();
-            this.update = new System.Windows.Forms.Button();
-            this.forename = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.dgPayments = new System.Windows.Forms.DataGridView();
+            this.memberId = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.mobile = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.email = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.saleValue = new System.Windows.Forms.MaskedTextBox();
+            this.dgMembers = new System.Windows.Forms.DataGridView();
+            this.memberName = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.search = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label9 = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.saleValue = new System.Windows.Forms.MaskedTextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.cboLocationSearch = new System.Windows.Forms.ComboBox();
+            this.request = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgMembers)).BeginInit();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgPayments)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -71,12 +71,29 @@
             this.groupBox1.Controls.Add(this.name);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Location = new System.Drawing.Point(252, 12);
+            this.groupBox1.Location = new System.Drawing.Point(396, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(239, 110);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Inventory Details";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(97, 22);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 45;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(12, 28);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(57, 13);
+            this.label2.TabIndex = 44;
+            this.label2.Text = "Item Type:";
             // 
             // quantity
             // 
@@ -115,95 +132,121 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox1);
+            this.groupBox2.Controls.Add(this.memberId);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.mobile);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.email);
             this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Controls.Add(this.dgPayments);
-            this.groupBox2.Controls.Add(this.forename);
+            this.groupBox2.Controls.Add(this.dgMembers);
+            this.groupBox2.Controls.Add(this.memberName);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.search);
             this.groupBox2.Location = new System.Drawing.Point(12, 12);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(234, 247);
+            this.groupBox2.Size = new System.Drawing.Size(378, 247);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Member Details";
             // 
-            // search
+            // memberId
             // 
-            this.search.Location = new System.Drawing.Point(172, 19);
-            this.search.Name = "search";
-            this.search.Size = new System.Drawing.Size(50, 21);
-            this.search.TabIndex = 34;
-            this.search.Text = "&Search";
-            this.search.UseVisualStyleBackColor = true;
+            this.memberId.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.memberId.Location = new System.Drawing.Point(78, 197);
+            this.memberId.MaxLength = 50;
+            this.memberId.Name = "memberId";
+            this.memberId.ReadOnly = true;
+            this.memberId.Size = new System.Drawing.Size(110, 22);
+            this.memberId.TabIndex = 57;
             // 
-            // comboBox1
+            // label6
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(97, 22);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 45;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(15, 200);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(54, 13);
+            this.label6.TabIndex = 56;
+            this.label6.Text = "MemberId";
             // 
-            // label2
+            // mobile
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 28);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 13);
-            this.label2.TabIndex = 44;
-            this.label2.Text = "Item Type:";
+            this.mobile.Location = new System.Drawing.Point(78, 169);
+            this.mobile.MaxLength = 50;
+            this.mobile.Name = "mobile";
+            this.mobile.Size = new System.Drawing.Size(110, 20);
+            this.mobile.TabIndex = 53;
             // 
-            // groupBox3
+            // label4
             // 
-            this.groupBox3.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox3.Controls.Add(this.label9);
-            this.groupBox3.Controls.Add(this.comboBox2);
-            this.groupBox3.Controls.Add(this.saleValue);
-            this.groupBox3.Controls.Add(this.label8);
-            this.groupBox3.Controls.Add(this.label10);
-            this.groupBox3.Controls.Add(this.cboLocationSearch);
-            this.groupBox3.Controls.Add(this.update);
-            this.groupBox3.Location = new System.Drawing.Point(252, 123);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(239, 136);
-            this.groupBox3.TabIndex = 48;
-            this.groupBox3.TabStop = false;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(15, 172);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(41, 13);
+            this.label4.TabIndex = 52;
+            this.label4.Text = "Mobile:";
             // 
-            // cboLocationSearch
+            // email
             // 
-            this.cboLocationSearch.FormattingEnabled = true;
-            this.cboLocationSearch.Items.AddRange(new object[] {
-            "Maker Zone",
-            "HotDesk Zone",
-            "Training Zone",
-            "Enterprise Center"});
-            this.cboLocationSearch.Location = new System.Drawing.Point(107, 17);
-            this.cboLocationSearch.Name = "cboLocationSearch";
-            this.cboLocationSearch.Size = new System.Drawing.Size(100, 21);
-            this.cboLocationSearch.TabIndex = 39;
-            this.cboLocationSearch.Text = "All";
+            this.email.Location = new System.Drawing.Point(78, 143);
+            this.email.MaxLength = 150;
+            this.email.Name = "email";
+            this.email.Size = new System.Drawing.Size(110, 20);
+            this.email.TabIndex = 51;
             // 
-            // update
+            // label1
             // 
-            this.update.Location = new System.Drawing.Point(107, 97);
-            this.update.Name = "update";
-            this.update.Size = new System.Drawing.Size(100, 26);
-            this.update.TabIndex = 27;
-            this.update.Text = "&Request";
-            this.update.UseVisualStyleBackColor = true;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(15, 146);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 50;
+            this.label1.Text = "Email:";
             // 
-            // forename
+            // dgMembers
             // 
-            this.forename.Location = new System.Drawing.Point(78, 19);
-            this.forename.MaxLength = 100;
-            this.forename.Name = "forename";
-            this.forename.Size = new System.Drawing.Size(88, 20);
-            this.forename.TabIndex = 36;
+            this.dgMembers.AllowUserToAddRows = false;
+            this.dgMembers.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgMembers.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgMembers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgMembers.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dgMembers.Location = new System.Drawing.Point(15, 49);
+            this.dgMembers.Name = "dgMembers";
+            this.dgMembers.ReadOnly = true;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgMembers.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgMembers.Size = new System.Drawing.Size(357, 73);
+            this.dgMembers.TabIndex = 49;
+            this.dgMembers.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgMembers_CellContentClick);
+            this.dgMembers.SelectionChanged += new System.EventHandler(this.dgMembers_SelectionChanged);
+            // 
+            // memberName
+            // 
+            this.memberName.AccessibleDescription = " ";
+            this.memberName.Location = new System.Drawing.Point(78, 19);
+            this.memberName.MaxLength = 100;
+            this.memberName.Name = "memberName";
+            this.memberName.Size = new System.Drawing.Size(88, 20);
+            this.memberName.TabIndex = 36;
             // 
             // label3
             // 
@@ -214,120 +257,31 @@
             this.label3.TabIndex = 35;
             this.label3.Text = "Name:";
             // 
-            // dgPayments
+            // search
             // 
-            this.dgPayments.AllowUserToDeleteRows = false;
-            this.dgPayments.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgPayments.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgPayments.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgPayments.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dgPayments.Location = new System.Drawing.Point(15, 49);
-            this.dgPayments.Name = "dgPayments";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgPayments.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.dgPayments.Size = new System.Drawing.Size(207, 46);
-            this.dgPayments.TabIndex = 49;
+            this.search.Location = new System.Drawing.Point(172, 19);
+            this.search.Name = "search";
+            this.search.Size = new System.Drawing.Size(50, 21);
+            this.search.TabIndex = 34;
+            this.search.Text = "&Search";
+            this.search.UseVisualStyleBackColor = true;
+            this.search.Click += new System.EventHandler(this.search_Click);
             // 
-            // mobile
+            // groupBox3
             // 
-            this.mobile.Location = new System.Drawing.Point(78, 130);
-            this.mobile.MaxLength = 50;
-            this.mobile.Name = "mobile";
-            this.mobile.Size = new System.Drawing.Size(110, 20);
-            this.mobile.TabIndex = 53;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(15, 133);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(41, 13);
-            this.label4.TabIndex = 52;
-            this.label4.Text = "Mobile:";
-            // 
-            // email
-            // 
-            this.email.Location = new System.Drawing.Point(78, 104);
-            this.email.MaxLength = 150;
-            this.email.Name = "email";
-            this.email.Size = new System.Drawing.Size(110, 20);
-            this.email.TabIndex = 51;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(15, 107);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 50;
-            this.label1.Text = "Email:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(78, 158);
-            this.textBox1.MaxLength = 50;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(110, 22);
-            this.textBox1.TabIndex = 57;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(15, 161);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(54, 13);
-            this.label6.TabIndex = 56;
-            this.label6.Text = "MemberId";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(13, 71);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(84, 13);
-            this.label10.TabIndex = 45;
-            this.label10.Text = "Invoice Amount:";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(13, 20);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(67, 13);
-            this.label8.TabIndex = 46;
-            this.label8.Text = "Payment To:";
-            // 
-            // saleValue
-            // 
-            this.saleValue.Location = new System.Drawing.Point(107, 71);
-            this.saleValue.Mask = "99990.00";
-            this.saleValue.Name = "saleValue";
-            this.saleValue.Size = new System.Drawing.Size(100, 20);
-            this.saleValue.TabIndex = 47;
-            this.saleValue.Text = "0000000";
-            this.saleValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.groupBox3.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox3.Controls.Add(this.label9);
+            this.groupBox3.Controls.Add(this.comboBox2);
+            this.groupBox3.Controls.Add(this.saleValue);
+            this.groupBox3.Controls.Add(this.label8);
+            this.groupBox3.Controls.Add(this.label10);
+            this.groupBox3.Controls.Add(this.cboLocationSearch);
+            this.groupBox3.Controls.Add(this.request);
+            this.groupBox3.Location = new System.Drawing.Point(396, 123);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(239, 136);
+            this.groupBox3.TabIndex = 48;
+            this.groupBox3.TabStop = false;
             // 
             // label9
             // 
@@ -350,14 +304,68 @@
             this.comboBox2.TabIndex = 48;
             this.comboBox2.Text = "All";
             // 
+            // saleValue
+            // 
+            this.saleValue.Location = new System.Drawing.Point(107, 71);
+            this.saleValue.Mask = "99990.00";
+            this.saleValue.Name = "saleValue";
+            this.saleValue.Size = new System.Drawing.Size(100, 20);
+            this.saleValue.TabIndex = 47;
+            this.saleValue.Text = "0000000";
+            this.saleValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(13, 20);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(67, 13);
+            this.label8.TabIndex = 46;
+            this.label8.Text = "Payment To:";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(13, 71);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(84, 13);
+            this.label10.TabIndex = 45;
+            this.label10.Text = "Invoice Amount:";
+            // 
+            // cboLocationSearch
+            // 
+            this.cboLocationSearch.FormattingEnabled = true;
+            this.cboLocationSearch.Items.AddRange(new object[] {
+            "Maker Zone",
+            "HotDesk Zone",
+            "Training Zone",
+            "Enterprise Center"});
+            this.cboLocationSearch.Location = new System.Drawing.Point(107, 17);
+            this.cboLocationSearch.Name = "cboLocationSearch";
+            this.cboLocationSearch.Size = new System.Drawing.Size(100, 21);
+            this.cboLocationSearch.TabIndex = 39;
+            this.cboLocationSearch.Text = "All";
+            // 
+            // request
+            // 
+            this.request.Location = new System.Drawing.Point(107, 97);
+            this.request.Name = "request";
+            this.request.Size = new System.Drawing.Size(100, 26);
+            this.request.TabIndex = 27;
+            this.request.Text = "&Request";
+            this.request.UseVisualStyleBackColor = true;
+            this.request.Click += new System.EventHandler(this.request_Click);
+            // 
             // Payment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(504, 271);
+            this.ClientSize = new System.Drawing.Size(644, 271);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Payment";
             this.Text = "Payments";
             this.Load += new System.EventHandler(this.Payment_Load);
@@ -365,9 +373,9 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgMembers)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgPayments)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -385,15 +393,15 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.ComboBox cboLocationSearch;
-        private System.Windows.Forms.Button update;
-        private System.Windows.Forms.TextBox forename;
+        private System.Windows.Forms.Button request;
+        private System.Windows.Forms.TextBox memberName;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DataGridView dgPayments;
+        private System.Windows.Forms.DataGridView dgMembers;
         private System.Windows.Forms.TextBox mobile;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox email;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox memberId;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.ComboBox comboBox2;

@@ -164,5 +164,10 @@ namespace InnovationMembership
             this.Close();
         }
 
+        private void requestPaymentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Payment payment = new Payment();
+            payment.ShowDialog();
+        }
     }
 }
