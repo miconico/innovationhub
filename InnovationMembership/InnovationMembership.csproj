@@ -61,15 +61,11 @@
     <Compile Include="InventoryAdd.Designer.cs">
       <DependentUpon>InventoryAdd.cs</DependentUpon>
     </Compile>
-    <Compile Include="InventoryBulkAdd.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="InventoryBulkAdd.cs" />
     <Compile Include="InventoryBulkAdd.Designer.cs">
       <DependentUpon>InventoryBulkAdd.cs</DependentUpon>
     </Compile>
-    <Compile Include="InventorySearch.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="InventorySearch.cs" />
     <Compile Include="InventorySearch.Designer.cs">
       <DependentUpon>InventorySearch.cs</DependentUpon>
     </Compile>
